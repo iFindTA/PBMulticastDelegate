@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBMulticastDelegate"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Multicast delegate for iOS development."
   s.description  = "Multicast delegate for FLK.Inc iOS Developers, that need multicast dispatch event etc."
 
@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/iFindTA/PBMulticastDelegate.git", :tag => "#{s.version}" }
-  s.source_files  = "PBMulticastDelegatePro/Pod/Classes/*.{h,m}"
-  s.public_header_files = "PBMulticastDelegatePro/Pod/Classes/*.h"
+  s.source_files  = "PBMulticastDelegate/Pod/Classes/*.{h,m}"
+  s.public_header_files = "PBMulticastDelegate/Pod/Classes/*.h"
 
   #s.resources    = "FLKBaseClasses/FLKBaseClasses/Resources/**/*"
 
